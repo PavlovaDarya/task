@@ -6,5 +6,5 @@ def persistence(num):
     for i in num_str:
         total = total * int(i)
     return 1 + persistence(total)
-num=int(input())
-print(persistence(num))
+print(persistence(int(input())))
+
